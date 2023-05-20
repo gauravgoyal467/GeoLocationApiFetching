@@ -1,0 +1,72 @@
+*{
+    margin:none;
+    padding:0px;
+   
+}
+.main-container{
+    margin:auto;
+    width:70vw;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+.self-container{
+    border:1px solid black;
+    padding:20px;
+}
+.lat{
+    display:flex;
+    gap:400px;
+}
+p,span{
+    font-size:1.3rem;
+    font-weight: 600;
+}
+.address-container{
+    background-color:black;
+    border:1px solid black;
+    padding-bottom:30px;
+}
+.address-container  >h1{
+    margin:20px;
+    color:white;
+}
+input{
+    margin:10px 20px ;
+    width:80%;
+    height:30px;
+    padding :10px 30px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+button{
+    margin:20px ;
+    width:15%;
+    height:40px;
+    font-size: 1.2rem;
+}
+.address-container  h2{
+    margin:20px 30px;
+    color:white;
+    font-size: 3rem;
+}
+.result-container{
+    margin:auto;
+    width:95%;
+    border:1px solid rgb(255, 255, 255);
+    padding:20px;
+    color:white;
+}
+.inner-container{
+    visibility: hidden;
+}
+.errorP{
+    display: none;
+    padding:10px 20px ;
+    color:red;
+    font-weight: 500;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Fetching</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>TimeZone API</h1>
+        <h2>Your Current Time Zone</h2>
+        <div class="self-container" id="self-container">
+           <p>Name of Time Zone :</p>
+            <div class="lat">
+                <span>Lat:</span>
+                <span>Long:</span>
+            </div>
+            <p>Offset STD:</p>
+            <p>Offset STD Seconds:</p>
+            <p>Offset DST:</p>
+            <p>Offset DST Seconds:</p>
+            <p>Country:</p>
+            <p>Postcode:</p>
+            <p>City:</p>
+        </div>
+        <div id="address-container" class="address-container">
+            <h1>Enter Address</h1>
+            <input id="input" type="text" placeholder="GK2,New Delhi">
+            <button  id="btn">Submit</button>
+            <p id="errorP" class="errorP">Please input the correct address or input more detail</p>
+            <div id="inner-container" class="inner-container">
+                <h2>Your Result</h2>
+                <div id="result-container" class="result-container">
+                    <p>Name of Time Zone :</p>
+                    <div class="lat">
+                        <span>Lat: </span>
+                        <span>Long:</span>
+                    </div>
+                    <p>Offset STD:</p>
+                    <p>Offset STD Seconds:</p>
+                    <p>Offset DST:</p>
+                    <p>Offset DST Seconds:</p>
+                    <p>Country:</p>
+                    <p>Postcode:</p>
+                    <p>City:</p>
+                </div>   
+            </div>  
+        </div>  
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
